@@ -1,0 +1,17 @@
+DEF_CG_COND(eq)   /* Equal */
+DEF_CG_COND(ne)   /* Not equal */
+DEF_CG_COND(cs)   /* Carry set (identical to HS) */
+DEF_CG_COND(hs)   /* Unsigned higher or same (identical to CS) */
+DEF_CG_COND(cc)   /* Carry clear (identical to LO) */
+DEF_CG_COND(lo)   /* Unsigned lower (identical to CC) */
+DEF_CG_COND(mi)   /* Minus or negative result */
+DEF_CG_COND(pl)   /* Positive or zero result */
+DEF_CG_COND(vs)   /* Overflow */
+DEF_CG_COND(vc)   /* No overflow */
+DEF_CG_COND(hi)   /* Unsigned higher */
+DEF_CG_COND(ls)   /* Unsigned lower or same */
+DEF_CG_COND(ge)   /* Signed greater than or equal */
+DEF_CG_COND(lt)   /* Signed less than */
+DEF_CG_COND(gt)   /* Signed greater than */
+DEF_CG_COND(le)   /* Signed less than or equal */
+DEF_CG_COND(al)   /* Always (this is the default) */
